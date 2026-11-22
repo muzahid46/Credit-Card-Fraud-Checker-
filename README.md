@@ -29,9 +29,9 @@ This is a learning demo. Never enter a real card number or CVV.
 ## The model
 The risk score comes from a logistic regression model trained in Python (scikit-learn) on generated practice data. The learned weights are copied into the website, so it runs fully in the browser with no server.
 
-- Training notebook: [fraud_model.ipynb](fraud_model.ipynb)
+- Training notebook (PDF): [Fraud_model.ipynb Colab.pdf](Fraud_model.ipynb%20-%20Colab.pdf)
 - Result on test data: about 95% of fraud cases caught, with more false alarms
 - Important: the data is synthetic, so this is a learning project, not a real bank system
 
-## Builsystem
+## Built with
 HTML, CSS and JavaScript. Hosted on GitHub Pages.
